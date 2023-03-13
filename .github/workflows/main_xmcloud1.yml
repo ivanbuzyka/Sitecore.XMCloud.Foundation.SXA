@@ -33,6 +33,7 @@ jobs:
           npm run build
           
       - name: Zip all files for upload between jobs
+        working-directory: ./src/sxastarter
         run: zip next.zip ./* -qr
 
       - name: Upload artifact for deployment job
