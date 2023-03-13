@@ -8,6 +8,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+  
+env:
+  JSS_APP_NAME: sxastarter
+  SITECORE_API_KEY: ${{ secrets.SITECOREXMCLOUD_API_KEY }}
+  GRAPH_QL_ENDPOINT: https://edge.sitecorecloud.io/api/graphql/v1  
 
 jobs:
   build:
