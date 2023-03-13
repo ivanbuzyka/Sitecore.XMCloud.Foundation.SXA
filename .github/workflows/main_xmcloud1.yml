@@ -59,7 +59,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'xmcloud2'
+          app-name: 'xmcloud1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.XMCLOUD2_PUBLISHING_PROFILE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D40376CBD47948BE9E702839A6634562 }}
           package: next.zip
