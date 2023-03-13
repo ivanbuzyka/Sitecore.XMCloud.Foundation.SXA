@@ -1,0 +1,68 @@
+﻿---
+ID: "b49227fc-8c9a-404f-a515-b753a41408a2"
+Parent: "b870f7cd-9106-4f18-99d1-2889d16957d6"
+Template: "ca3d7112-0d24-40c4-9a36-d85149624a36"
+Path: /sitecore/content/headless1/sxastarter/Home/About
+BranchID: "aa757cc9-f2da-4f78-a33d-9d382d5fcf92"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{CDE48C62-5E3F-49CC-9CF1-3924EEF2739C}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{070228BE-11C6-4ABF-8C87-522C2DB997DC}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bE1EEE2B8-F8F5-4E63-9FB7-7E6910351C23%7d%7c%7b15E01B04-28F1-4B05-87B3-2A85B2D615F7%7d%7c%7b03BD2EA2-C960-47C6-9384-CF33A3B80137%7d%7c%7b9C033195-1A3F-40FE-BDB8-96612B84D752%7d%7c%7bE25C79C7-6E5D-4D71-B5B4-D3C870E62D49%7d%7c%7bA43190C5-2CC9-490F-8411-708EF4F1C613%7d%7c%7b3D5CB106-655A-4631-A6B9-A9932ED28DAA%7d%7c%7b9FC4DD6E-96D9-4157-852D-4C68D2179B7F%7d%7c%7bD6EB12EE-54EB-4C9B-9A5F-9A75A7CADA82%7d%7c%7bE643D793-79C3-4CA8-A348-77EBC20FE17A%7d%7c%7b14FE6845-3910-4F67-92B1-355334B5CAA9%7d%7c%7b4FD23B3E-7206-480B-8E0B-D082CA0F7A08%7d%7c%7b7C9261BB-411E-4E08-BA17-5FE29114D273%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{ACF05058-9AD6-4937-911A-9164DAA306F8}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b959FDFBB-4691-4A17-816F-7A5330B8216A%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b8D398ADB-7A58-4F70-BB15-B1473EDF4D44%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B8E694EC-3576-4CC6-8628-AEE286A9AB38}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230313T111908Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: About
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ivan.buzyka@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ivan.buzyka@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0962909a-5e74-42a8-86ec-3850d3d122d4"
+    - ID: "af26d0db-7e96-4fd5-8543-72c628343c12"
+      Hint: Title
+      Value: About
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ivan.buzyka@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230313T111926Z
