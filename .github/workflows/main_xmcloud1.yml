@@ -61,5 +61,5 @@ jobs:
         with:
           app-name: 'xmcloud1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D40376CBD47948BE9E702839A6634562 }}
+          publish-profile: ${{ secrets.XMCLOUD2_PUBLISHING_PROFILE }}
           package: next.zip
