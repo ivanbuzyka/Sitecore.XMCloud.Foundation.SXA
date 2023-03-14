@@ -33,6 +33,7 @@ jobs:
           npm run build
           
       - name: Zip all files for upload between jobs
+        shell: cmd
         working-directory: ./src/sxastarter
         run: 7z a -tzip next.zip -x!.env -x!.env.local
 
