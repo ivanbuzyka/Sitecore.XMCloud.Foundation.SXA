@@ -34,7 +34,7 @@ jobs:
           
       - name: Zip all files for upload between jobs
         working-directory: ./src/sxastarter
-        run: 7z a -tzip next.zip -xr!.env -xr!.env.local
+        run: 7z a -tzip next.zip -x!.env -x!.env.local
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
